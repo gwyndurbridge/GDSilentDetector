@@ -5,7 +5,7 @@
 //  Created by Gwyn Durbridge on 16/9/17.
 //
 //
-//  Adapated from https://github.com/fopina/MuteDetector
+//  Based on https://github.com/fopina/MuteDetector
 //
 
 import Foundation
