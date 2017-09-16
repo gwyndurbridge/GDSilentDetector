@@ -1,9 +1,8 @@
 {
   "name": "GDSilentDetector",
   "version": "0.1.0",
-  "summary": "A short description of GDSilentDetector.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Gwyn Durbridge/GDSilentDetector",
+  "summary": "Detects the silent switch state of an iPhone.",
+  "homepage": "https://github.com/GwynDurbridge/GDSilentDetector",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +11,14 @@
     "Gwyn Durbridge": "gwyndurbridge@users.noreply.github.com"
   },
   "source": {
-    "git": "https://github.com/Gwyn Durbridge/GDSilentDetector.git",
+    "git": "https://github.com/GwynDurbridge/GDSilentDetector.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "GDSilentDetector/Classes/**/*"
+  "source_files": "GDSilentDetector/Classes/**/*",
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "3.2"
+  }
 }

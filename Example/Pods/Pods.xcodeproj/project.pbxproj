@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2644BDE6C0AFF4AE1123C37ED9ECF84A /* GDSilentDetector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9090561BE2640CEDFE38937F00B530A /* GDSilentDetector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2912D02D1F6CDBE000CBF486 /* GDSilentDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2912D02C1F6CDBE000CBF486 /* GDSilentDetector.swift */; };
-		2912D02E1F6CE0F500CBF486 /* GDSilentDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2912D02C1F6CDBE000CBF486 /* GDSilentDetector.swift */; };
+		001B4173776CD19B644A91F78AFF129F /* GDSilentDetector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89427AA0AB70846063B23A475C023F1E /* GDSilentDetector-dummy.m */; };
+		2644BDE6C0AFF4AE1123C37ED9ECF84A /* GDSilentDetector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4C19F690D4926E9D9E79C70C51F6953 /* GDSilentDetector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DE1AC32E5E618E23F1DF189BCDD5C95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		4BD8D324B6B5D4985366134F8236270C /* Pods-GDSilentDetector_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90AB2D6A8A8CD38F9A984B122BFB3C19 /* Pods-GDSilentDetector_Example-dummy.m */; };
-		5EF06CD47B9D97ED01314B6C12BE4280 /* GDSilentDetector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DDF848B2D6F18A78E2EFA53DD55088F /* GDSilentDetector-dummy.m */; };
+		61920AB9A568D01FB917CA576429FCE9 /* GDSilentDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142BE76AA6F5E989C503710FD8D0BD3D /* GDSilentDetector.swift */; };
 		74CDB83DA82ADA16DC1C01608941E472 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B39584FF57C7EF2089C79A8FB0F761EE /* Pods-GDSilentDetector_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC1C052325B778278608348634BAA088 /* Pods-GDSilentDetector_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9DE25A6CCF6CFA2BA301FF6C56C90A0 /* Pods-GDSilentDetector_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA18442B3B343539D1A81D7A43A17FAE /* Pods-GDSilentDetector_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,37 +30,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1DDF848B2D6F18A78E2EFA53DD55088F /* GDSilentDetector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GDSilentDetector-dummy.m"; sourceTree = "<group>"; };
+		1029C59084EF2BC485BE757A7C5B70D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		142BE76AA6F5E989C503710FD8D0BD3D /* GDSilentDetector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GDSilentDetector.swift; path = GDSilentDetector/Classes/GDSilentDetector.swift; sourceTree = "<group>"; };
 		2228C8E0E5DF64C632688F834F42E979 /* Pods-GDSilentDetector_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GDSilentDetector_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2912D02C1F6CDBE000CBF486 /* GDSilentDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GDSilentDetector.swift; path = GDSilentDetector/Classes/GDSilentDetector.swift; sourceTree = "<group>"; };
 		39AD22A75553CF124833DE7CD5E66E1C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A86884F281D8F97CD2AE1D8A9F27DB5 /* Pods-GDSilentDetector_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GDSilentDetector_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		58D96CFD25E7B2E1EC04B148D05DA6CB /* Pods-GDSilentDetector_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GDSilentDetector_Tests.modulemap"; sourceTree = "<group>"; };
-		5B3D6517C12712FC800D6802B393D7A0 /* GDSilentDetector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GDSilentDetector.xcconfig; sourceTree = "<group>"; };
+		58D96CFD25E7B2E1EC04B148D05DA6CB /* Pods-GDSilentDetector_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GDSilentDetector_Tests.modulemap"; sourceTree = "<group>"; };
+		58F082E8E1DA2B84A57481871AA5215D /* GDSilentDetector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GDSilentDetector-prefix.pch"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6E2FD54BB059EE7CA077E4D87A40E0E4 /* GDSilentDetector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GDSilentDetector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E2FD54BB059EE7CA077E4D87A40E0E4 /* GDSilentDetector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GDSilentDetector.framework; path = GDSilentDetector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B30114F269DA9EB5723E25C74516E02 /* Pods-GDSilentDetector_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GDSilentDetector_Tests-dummy.m"; sourceTree = "<group>"; };
-		8B3D803E1A3389DC189EA2CB25C379DD /* GDSilentDetector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GDSilentDetector.modulemap; sourceTree = "<group>"; };
+		89427AA0AB70846063B23A475C023F1E /* GDSilentDetector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GDSilentDetector-dummy.m"; sourceTree = "<group>"; };
+		8D1A7ADE5A9C2AF0B39723DE13D7B930 /* GDSilentDetector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GDSilentDetector.xcconfig; sourceTree = "<group>"; };
 		8E68E741BC627CCEEA6C97FA3BEEBB3B /* Pods-GDSilentDetector_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GDSilentDetector_Example-resources.sh"; sourceTree = "<group>"; };
-		8EF9B5D202CC25D2F929B8E4A5A3A634 /* Pods_GDSilentDetector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDSilentDetector_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF9B5D202CC25D2F929B8E4A5A3A634 /* Pods_GDSilentDetector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GDSilentDetector_Tests.framework; path = "Pods-GDSilentDetector_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90AB2D6A8A8CD38F9A984B122BFB3C19 /* Pods-GDSilentDetector_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GDSilentDetector_Example-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9CEAF19429454EFF8E2421A8FF07E6EF /* Pods-GDSilentDetector_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GDSilentDetector_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D36236948DF45A4240CD2B75B8A79DD /* Pods-GDSilentDetector_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GDSilentDetector_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A07FDC3F14202108DE9CCE0C44AADF71 /* Pods-GDSilentDetector_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GDSilentDetector_Example.modulemap"; sourceTree = "<group>"; };
-		A9090561BE2640CEDFE38937F00B530A /* GDSilentDetector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GDSilentDetector-umbrella.h"; sourceTree = "<group>"; };
+		A07FDC3F14202108DE9CCE0C44AADF71 /* Pods-GDSilentDetector_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GDSilentDetector_Example.modulemap"; sourceTree = "<group>"; };
 		AA18442B3B343539D1A81D7A43A17FAE /* Pods-GDSilentDetector_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GDSilentDetector_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B4C19F690D4926E9D9E79C70C51F6953 /* GDSilentDetector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GDSilentDetector-umbrella.h"; sourceTree = "<group>"; };
 		B59F2750BD874A84A8947F34E6932F67 /* Pods-GDSilentDetector_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GDSilentDetector_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BC1C052325B778278608348634BAA088 /* Pods-GDSilentDetector_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GDSilentDetector_Example-umbrella.h"; sourceTree = "<group>"; };
-		C645492065E1CB572F701F18E61F8FE6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C70B4931C92346555977B9D499DD554B /* GDSilentDetector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GDSilentDetector.modulemap; sourceTree = "<group>"; };
 		CB71CD4937A5E687F4469DC977C29D0C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1488B5DB6C612C241DD30C957F29924 /* Pods-GDSilentDetector_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GDSilentDetector_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D8F06C07EBC8F837BA640069B559D34E /* Pods-GDSilentDetector_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GDSilentDetector_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		DF13F2EF4FBE10C2D9670DFAE7AA30DE /* Pods-GDSilentDetector_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GDSilentDetector_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E4831071FACCA2C86DB4F2633D8A88FA /* Pods-GDSilentDetector_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GDSilentDetector_Tests-resources.sh"; sourceTree = "<group>"; };
-		E8E3B586A8ED72690D7AA29308A83910 /* Pods_GDSilentDetector_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GDSilentDetector_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8E3B586A8ED72690D7AA29308A83910 /* Pods_GDSilentDetector_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GDSilentDetector_Example.framework; path = "Pods-GDSilentDetector_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F11A407C6FA3AF2E450157A237FEF04A /* Pods-GDSilentDetector_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GDSilentDetector_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F1A1DC4A469BFCF656E4186A4C25BEDA /* GDSilentDetector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GDSilentDetector-prefix.pch"; sourceTree = "<group>"; };
 		F2E0F31229C306F6EE60F72592D3FD1A /* Pods-GDSilentDetector_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GDSilentDetector_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,16 +92,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05C569B9C17A38EB753F498DAEB17420 /* GDSilentDetector */ = {
-			isa = PBXGroup;
-			children = (
-				2912D02C1F6CDBE000CBF486 /* GDSilentDetector.swift */,
-				F4416E207988D556E84677645D902C34 /* Support Files */,
-			);
-			name = GDSilentDetector;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		5C647F04E917BF0115F5CFCFB289791D /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +131,30 @@
 			);
 			sourceTree = "<group>";
 		};
+		7F28C1A06F47F648FB90216EF7A4A746 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C70B4931C92346555977B9D499DD554B /* GDSilentDetector.modulemap */,
+				8D1A7ADE5A9C2AF0B39723DE13D7B930 /* GDSilentDetector.xcconfig */,
+				89427AA0AB70846063B23A475C023F1E /* GDSilentDetector-dummy.m */,
+				58F082E8E1DA2B84A57481871AA5215D /* GDSilentDetector-prefix.pch */,
+				B4C19F690D4926E9D9E79C70C51F6953 /* GDSilentDetector-umbrella.h */,
+				1029C59084EF2BC485BE757A7C5B70D1 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GDSilentDetector";
+			sourceTree = "<group>";
+		};
+		97D37BD00D523DB2E433DD84D9314E6F /* GDSilentDetector */ = {
+			isa = PBXGroup;
+			children = (
+				142BE76AA6F5E989C503710FD8D0BD3D /* GDSilentDetector.swift */,
+				7F28C1A06F47F648FB90216EF7A4A746 /* Support Files */,
+			);
+			name = GDSilentDetector;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		AADF5F95D1AEDC8FCA954965943AE610 /* Pods-GDSilentDetector_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,7 +176,7 @@
 		B87D4A4FC6A6B824AE83D806135B7618 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				05C569B9C17A38EB753F498DAEB17420 /* GDSilentDetector */,
+				97D37BD00D523DB2E433DD84D9314E6F /* GDSilentDetector */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -191,20 +204,6 @@
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		F4416E207988D556E84677645D902C34 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8B3D803E1A3389DC189EA2CB25C379DD /* GDSilentDetector.modulemap */,
-				5B3D6517C12712FC800D6802B393D7A0 /* GDSilentDetector.xcconfig */,
-				1DDF848B2D6F18A78E2EFA53DD55088F /* GDSilentDetector-dummy.m */,
-				F1A1DC4A469BFCF656E4186A4C25BEDA /* GDSilentDetector-prefix.pch */,
-				A9090561BE2640CEDFE38937F00B530A /* GDSilentDetector-umbrella.h */,
-				C645492065E1CB572F701F18E61F8FE6 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GDSilentDetector";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0402567AD053D75D215AE8A0CE458CD /* Build configuration list for PBXNativeTarget "GDSilentDetector" */;
 			buildPhases = (
-				F031E1FFC466D8A06D4E657250DCCC47 /* Sources */,
+				933427037D76B416C832C2E2C7711698 /* Sources */,
 				EC177E5A3776BC7D976F7AEC9D97B49A /* Frameworks */,
 				8004415D314A4E7A316A06CF38C2812F /* Headers */,
 			);
@@ -326,21 +325,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		933427037D76B416C832C2E2C7711698 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001B4173776CD19B644A91F78AFF129F /* GDSilentDetector-dummy.m in Sources */,
+				61920AB9A568D01FB917CA576429FCE9 /* GDSilentDetector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		97608032C66495B781A1BD34A38E1CF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4BD8D324B6B5D4985366134F8236270C /* Pods-GDSilentDetector_Example-dummy.m in Sources */,
-				2912D02E1F6CE0F500CBF486 /* GDSilentDetector.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F031E1FFC466D8A06D4E657250DCCC47 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2912D02D1F6CDBE000CBF486 /* GDSilentDetector.swift in Sources */,
-				5EF06CD47B9D97ED01314B6C12BE4280 /* GDSilentDetector-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,199 +354,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		181D21EC7AABC18B2CFCF35FE8D5E4B5 /* Debug */ = {
+		25B673D3BE109C265553EB3323F19C69 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B59F2750BD874A84A8947F34E6932F67 /* Pods-GDSilentDetector_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GDSilentDetector_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GDSilentDetector_Tests/Pods-GDSilentDetector_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GDSilentDetector_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		626F71B41E8054F0DD9872B9C3CC65B4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F11A407C6FA3AF2E450157A237FEF04A /* Pods-GDSilentDetector_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GDSilentDetector_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GDSilentDetector_Example/Pods-GDSilentDetector_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GDSilentDetector_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		63C2E11ACC82888658F8F72A625670D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A86884F281D8F97CD2AE1D8A9F27DB5 /* Pods-GDSilentDetector_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GDSilentDetector_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GDSilentDetector_Tests/Pods-GDSilentDetector_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GDSilentDetector_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		A3EA6DDCABBEE74C7282F47A5F997D04 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B3D6517C12712FC800D6802B393D7A0 /* GDSilentDetector.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GDSilentDetector/GDSilentDetector-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GDSilentDetector/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GDSilentDetector/GDSilentDetector.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = GDSilentDetector;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A4DF2AC36CA07AA1A940D8413D57AF61 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B3D6517C12712FC800D6802B393D7A0 /* GDSilentDetector.xcconfig */;
+			baseConfigurationReference = 8D1A7ADE5A9C2AF0B39723DE13D7B930 /* GDSilentDetector.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -581,7 +389,116 @@
 			};
 			name = Release;
 		};
-		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
+		370E41771DBE4AEC6F1BB3AFC5712921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1488B5DB6C612C241DD30C957F29924 /* Pods-GDSilentDetector_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GDSilentDetector_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GDSilentDetector_Example/Pods-GDSilentDetector_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GDSilentDetector_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F5E192F8FE628C6A4EEB827FA001C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A86884F281D8F97CD2AE1D8A9F27DB5 /* Pods-GDSilentDetector_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GDSilentDetector_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GDSilentDetector_Tests/Pods-GDSilentDetector_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GDSilentDetector_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A151BCC1AB8681C38E8635BF0795E27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D1A7ADE5A9C2AF0B39723DE13D7B930 /* GDSilentDetector.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GDSilentDetector/GDSilentDetector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GDSilentDetector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GDSilentDetector/GDSilentDetector.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GDSilentDetector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		97803B46811A9BDB5E70FA1303AFBFFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -621,7 +538,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -630,16 +547,96 @@
 			};
 			name = Debug;
 		};
-		E9769A168F4259D5A65441D3E07D5FE6 /* Release */ = {
+		B2AA937166A37D068BFDC377B40ECB33 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1488B5DB6C612C241DD30C957F29924 /* Pods-GDSilentDetector_Example.release.xcconfig */;
+			baseConfigurationReference = B59F2750BD874A84A8947F34E6932F67 /* Pods-GDSilentDetector_Tests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GDSilentDetector_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GDSilentDetector_Tests/Pods-GDSilentDetector_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GDSilentDetector_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAB6899A145404A4556BFC76D97F062F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F11A407C6FA3AF2E450157A237FEF04A /* Pods-GDSilentDetector_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -648,11 +645,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-GDSilentDetector_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-GDSilentDetector_Example/Pods-GDSilentDetector_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -660,13 +657,14 @@
 				PRODUCT_NAME = Pods_GDSilentDetector_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -674,8 +672,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */,
-				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+				97803B46811A9BDB5E70FA1303AFBFFE /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -683,8 +681,8 @@
 		A0402567AD053D75D215AE8A0CE458CD /* Build configuration list for PBXNativeTarget "GDSilentDetector" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A3EA6DDCABBEE74C7282F47A5F997D04 /* Debug */,
-				A4DF2AC36CA07AA1A940D8413D57AF61 /* Release */,
+				7A151BCC1AB8681C38E8635BF0795E27 /* Debug */,
+				25B673D3BE109C265553EB3323F19C69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -692,8 +690,8 @@
 		A1A15B7980A919216555DA0442A8EDA3 /* Build configuration list for PBXNativeTarget "Pods-GDSilentDetector_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				181D21EC7AABC18B2CFCF35FE8D5E4B5 /* Debug */,
-				63C2E11ACC82888658F8F72A625670D6 /* Release */,
+				B2AA937166A37D068BFDC377B40ECB33 /* Debug */,
+				3F5E192F8FE628C6A4EEB827FA001C12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -701,8 +699,8 @@
 		FA347DB2AC1B0892320070B63F40521A /* Build configuration list for PBXNativeTarget "Pods-GDSilentDetector_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				626F71B41E8054F0DD9872B9C3CC65B4 /* Debug */,
-				E9769A168F4259D5A65441D3E07D5FE6 /* Release */,
+				FAB6899A145404A4556BFC76D97F062F /* Debug */,
+				370E41771DBE4AEC6F1BB3AFC5712921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
