@@ -7,14 +7,38 @@
 //
 
 import UIKit
+import GDSilentDetector
+
+struct Platform {
+    static var isSimulator: Bool {
+        return TARGET_OS_SIMULATOR != 0
+    }
+}
 
 class ViewController: UIViewController {
 
+    var silentChecker: GDSilentDetector!
+    
+    @IBOutlet weak var statusLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        silentChecker = GDSilentDetector()
+        silentChecker.delegate = self
+        
+        checkSilent(self)
     }
-
+    
+    @IBAction func checkSilent(_ sender: Any) {
+        if Platform.isSimulator {
+            self.statusLabel.text = "Cannot detect silent switch on simulator"
+        }
+        else {
+            silentChecker.checkSilent()
+        }
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -22,3 +46,10 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController: GDSilentDetectorDelegate {
+    func gotSilentStatus(isSilent: Bool) {
+        DispatchQueue.main.async {
+            self.statusLabel.text = isSilent ? "SILENT ENABLED" : "SILENT DISABLED"
+        }
+    }
+}
