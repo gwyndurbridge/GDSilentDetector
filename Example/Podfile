@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GDSilentDetector_Example' do
+  pod 'GDSilentDetector', :path => '../'
+
+  target 'GDSilentDetector_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
