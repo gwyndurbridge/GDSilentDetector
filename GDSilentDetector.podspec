@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  # s.description      = <<-DESC
+  # TODO: Add long description of the pod here.
+  #                        DESC
 
   s.homepage         = 'https://github.com/GwynDurbridge/GDSilentDetector'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -31,6 +31,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'GDSilentDetector/Classes/**/*'
+
+  s.pod_target_xcconfig = {
+    "SWIFT_VERSION" => "3.2",
+  }
   
   # s.resource_bundles = {
   #   'GDSilentDetector' => ['GDSilentDetector/Assets/*.png']
