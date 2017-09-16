@@ -1,0 +1,22 @@
+{
+  "name": "GDSilentDetector",
+  "version": "0.1.0",
+  "summary": "A short description of GDSilentDetector.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Gwyn Durbridge/GDSilentDetector",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Gwyn Durbridge": "gwyndurbridge@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/Gwyn Durbridge/GDSilentDetector.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GDSilentDetector/Classes/**/*"
+}
